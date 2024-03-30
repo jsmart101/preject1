@@ -9,8 +9,8 @@ const Header = () => {
 
     return (
       <div className="container">
-           <h6 className={classes.footer_note}>For Inquiries, Reach out to verifyrentors@gmail.com</h6>
-    <h6 className={classes.chores}>&copy; VerifyRentors 2023</h6>
+           <h6 className={classes.footer_note}>For Inquiries, Reach out to jjoe2040@gmail.com</h6>
+    <h6 className={classes.chores}>&copy; DontBeScammed 2024</h6>
       </div>
  
     )

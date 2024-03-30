@@ -24,7 +24,7 @@ const Home = () => {
 
 const alert = () => toast("Copied to clipboard");
 const shareWebsite = ()=> {
-    navigator.clipboard.writeText('Visit the website at https://verifyrentors.com')
+    navigator.clipboard.writeText('Visit the website at ')
    alert()
 }
      
@@ -43,11 +43,11 @@ const shareWebsite = ()=> {
                     <div className="col-md-6">
                         <p className={classes.first_text}>HELP DETECT RENTAL FRAUD</p>
                     <h4 className={classes.homepage_title}>
-                        Introducing VerifyRentors
+                        Introducing DontBeScammed
                         <br/> 
                         </h4>
                     <p className={classes.intro_hero}>
-                     <span style={{fontWeight:'bold'}}>1 in 10</span> people living in Switzerland fall victim to rent fraud. <br/>Protect the next person by submitting details of fraudsters and join a community that's taking action against scammers. Together, we can expose rental fraud and make informed choices.
+                     <span style={{fontWeight:'bold'}}>1 in 10</span> people living in Poland fall victim to rent fraud. <br/>Protect the next person by submitting details of fraudsters and join a community that's taking action against scammers. Together, we can expose rental fraud and make informed choices.
                     </p>
                     <button class={classes.ctabutton1}>How It Works</button>
                     <Link href="/add" >
@@ -106,7 +106,7 @@ const shareWebsite = ()=> {
                             <div className={classes.hiw_box}>
                             <FontAwesomeIcon icon={faShare} width="30" />
                             <p className={classes.hit_title}>Share your experiences</p>
-                            <p className={classes.hit_subtitle}>Invite people to use VerifyRentors and detect fraudsters before they get scammed.</p>
+                            <p className={classes.hit_subtitle}>Invite people to use DontBeScammed and detect fraudsters before they get scammed.</p>
                             <p onClick={shareWebsite} className={classes.hit_button}>Share <FontAwesomeIcon icon={faCaretRight} width="8" /></p>
                             </div>
                             </div>
