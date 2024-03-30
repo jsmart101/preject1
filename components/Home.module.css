@@ -1,0 +1,284 @@
+
+
+/* .homepage{
+    height: 800px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+} */
+
+.tableheadinner{
+    font-weight: 400;
+}
+
+.tablehead{
+    margin-top:40px;
+}
+
+.intro_hero{
+    padding-top:20px;
+    
+}
+
+.ctabutton1{
+    /* font-family: "Centra",Sans-serif; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    background-color: #1683fb;
+    border:1px solid #1683fb;
+    border-radius: 4px;
+    padding: 10px 28px;
+    margin-top:10px
+}
+
+.ctabutton2{
+    /* font-family: "Centra",Sans-serif; */
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #353848;
+    background-color: #e9f3ff;
+    border:1px solid #e9f3ff;
+    margin-left:10px;
+    border-radius: 4px;
+    padding: 10px 28px;
+}
+
+.userdetails{
+    text-align: center;
+    padding-top:60px;
+    font-size:20px
+}
+
+.box_one{
+    /* background-color:#FFF; */
+    padding-top:60px;
+    padding-bottom:50px;
+}
+
+.box_two{
+    /* background-color:#FFF; */
+    padding-top:30px;
+    padding-bottom:50px;
+}
+
+.box_three{
+    /* background-color:#FFF; */
+    padding-top:30px;
+    padding-bottom:50px;
+}
+
+
+.homepage_search{
+    margin-left:85px;
+    margin-top:20px
+}
+
+.hiw_box{
+    background-color: #FFF;
+    padding:30px;
+    margin-bottom:20px;
+    border-radius: 10px;
+
+}
+
+
+.hiw_box:hover{
+    background-color: #fff;
+    box-shadow: 0px 30px 80px -8px rgba(0,0,0,.1);
+    /* transition: 0.5s; */
+}
+
+.hit_heading{
+    text-align: left;
+    color: #353848;
+    font-family: "Centra",Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.tabletd{
+    font-weight: light!important;
+}
+
+
+
+
+.first_text{
+    text-align: left;
+    color: #353848;
+    font-family: "Centra",Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 60px;
+}
+
+.all_submissions_text{
+    text-align: left;
+    color: #353848;
+    font-family: "Centra",Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+
+.homepage_title{
+    /* text-align:center; */
+    color: #353848;
+    font-size: 72px;
+}
+
+.submissions_title{
+    text-align:center;
+    padding-top:60px;
+    color: rgba(0,0,0,.55);
+}
+
+.user_box_title{
+    color: rgba(0,0,0,.55);
+    padding-bottom:30px
+}
+
+.homepage_subtitle{
+    text-align:center;
+    margin-top:40px;
+    color: rgba(0,0,0,.55);
+    
+ 
+}
+
+.homepage_emphasis{
+    color:#80471C
+}
+
+.chores{
+    margin-top:0px;
+    text-align:center;
+    padding-bottom:20px
+   
+}
+
+.footer_note{
+    margin-top:150px;
+    text-align:center;
+    padding-bottom:0px;
+    color: #353848;
+    /* font-family: "Centra",Sans-serif; */
+    font-size: 13px;
+    font-weight: 500;
+ 
+
+}
+
+.mobile_spacing{
+    padding-top:40px;
+}
+
+.user_box{
+    margin-top:40px
+}
+
+.hit_title{
+    padding-top: 30px;
+    padding-bottom:20px;
+    font-size:21px;
+    font-weight: 500;
+    color:#353848
+}
+
+.hit_button{
+    padding-top: 10px;
+    padding-bottom:20px;
+    font-size:17px;
+    font-weight: 500;
+    color:#353848;
+    cursor: pointer;
+}
+
+.redirecthere{
+    cursor: pointer;
+    color: blue;
+}
+
+.openimage{
+cursor: pointer;
+}
+
+.player_animation{
+    margin-top:70px;
+    height: 300px;
+    width: 500px;
+    
+}
+/* .open_link{
+    text-decoration: none;
+} */
+
+
+
+
+@media screen and (max-width: 833px) {  
+
+    .player_animation{
+        margin-top:70px;
+        height: 250px;
+        width: 320px;
+        
+    }
+    .homepage_search{
+        margin-left:0px;
+        margin-top:20px
+    }
+
+    .mobile_spacing{
+        padding-left:15px;
+        padding-right:15px;
+        text-align: justify;
+        padding-top:10px;
+    }
+
+    .intro_hero{
+        padding-left:15px;
+        padding-right:15px;
+        text-align: justify;
+        padding-top:20px;
+    }
+
+    .table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+
+.hit_title{
+    /* padding-left: 20px; */
+}
+
+.hit_subtitle{
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.homepage_title{
+    font-size:42px;
+}
+
+.first_text{
+    padding-bottom: 20px;
+}
+
+}

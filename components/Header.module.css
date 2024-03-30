@@ -1,0 +1,14 @@
+/* .navbar{
+    background-color: #FFF;
+} */
+
+.headerbutton{
+    font-family: "Centra",Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    background-color: #1683fb;
+    border-radius: 4px;
+    padding: 12px 32px;
+}
